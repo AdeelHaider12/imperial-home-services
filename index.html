@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080808">
+<meta name="description" content="Veltrix Digital Studio creates high-performing websites, Shopify stores and performance marketing systems for ambitious brands.">
+<title>VELTRIX — Your Growth Partner</title>
+<style>
+:root{--bg:#080808;--panel:#111;--panel2:#171717;--text:#f5f3ef;--muted:#9b9893;--orange:#ff812e;--line:#292725;--serif:Georgia,serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}
+.noise{position:fixed;inset:0;pointer-events:none;z-index:20;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E")}
+.intro{height:100svh;min-height:560px;display:grid;place-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 8% 4%,#7b2c0d55,transparent 28%),#080808}
+.intro:before,.intro:after{content:"";position:absolute;width:120vw;height:65vh;left:-10vw;border-radius:50%;border:1px solid #ffffff12;transform:rotate(-22deg);box-shadow:0 0 0 35px #ffffff04,0 0 0 75px #ffffff03}
+.intro:before{top:20%;background:linear-gradient(130deg,#ffffff0a,transparent 45%);filter:blur(1px)}.intro:after{top:38%;left:15%;opacity:.5}
+.intro-glow{position:absolute;width:440px;height:440px;left:-250px;top:-240px;background:#ff702a;filter:blur(160px);opacity:.3;animation:glow 7s ease-in-out infinite alternate}
+@keyframes glow{to{transform:translate(120px,120px);opacity:.5}}
+.intro-content{text-align:center;position:relative;z-index:1;animation:reveal 1.5s both}.brand{font-size:clamp(2.6rem,7vw,5rem);font-weight:900;letter-spacing:.055em;margin:0}.tagline{font-family:var(--serif);font-style:italic;color:var(--orange);letter-spacing:.13em;margin:10px 0 0;font-size:15px}.scroll-cue{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:.25em;color:#777;text-align:center}.scroll-cue span{display:block;color:var(--orange);font-size:20px;margin-top:8px;animation:bob 1.4s infinite}@keyframes bob{50%{transform:translateY(7px)}}@keyframes reveal{from{opacity:0;transform:translateY(22px);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+header{height:76px;position:sticky;top:0;z-index:15;background:#080808d9;backdrop-filter:blur(16px);border-bottom:1px solid #ffffff0a}.nav{max-width:1200px;height:100%;margin:auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:.09em;font-size:19px}.logo small{display:block;font-size:7px;letter-spacing:.2em;color:var(--orange);font-weight:500;margin-top:3px}.navlinks{display:flex;gap:32px;align-items:center;font-size:12px;color:#c5c2be}.navlinks a:hover{color:var(--orange)}.cta{background:var(--orange);color:#fff;border:0;border-radius:30px;padding:13px 22px;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:10px;transition:.25s;cursor:pointer}.cta:hover{background:#ff9b58;transform:translateY(-2px);box-shadow:0 8px 30px #ff812e33}.menu{display:none;background:none;color:white;border:0;font-size:25px}
+section{padding:110px 28px}.wrap{max-width:1200px;margin:auto}.eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--orange);font-weight:800}.section-head{text-align:center;max-width:670px;margin:0 auto 48px}.section-head h2{font-family:var(--serif);font-style:italic;font-size:clamp(2rem,4vw,3.3rem);margin:14px 0}.section-head p{color:var(--muted);font-size:13px;line-height:1.8}
+.hero{min-height:650px;display:flex;align-items:center;padding-top:80px;padding-bottom:90px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-180px;top:0;width:520px;height:520px;background:#ff702a14;filter:blur(100px);border-radius:50%}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px;position:relative;z-index:1}.hero-copy{position:relative}.ghost{position:absolute;top:-100px;left:-18px;font-size:clamp(5rem,15vw,13rem);font-weight:900;letter-spacing:-.08em;color:#ffffff0b;white-space:nowrap;z-index:-1}.hero h1{font-size:clamp(3rem,6vw,5.5rem);line-height:.94;letter-spacing:-.06em;margin:0 0 16px}.hero h1 span{color:var(--orange)}.hero .role{font-size:clamp(1.2rem,2.3vw,2rem);font-weight:300;color:#d8d5d0;line-height:1.3}.hero p{color:var(--muted);line-height:1.9;max-width:420px;font-size:13px;margin:22px 0 28px}.hero-image{height:510px;position:relative;display:flex;justify-content:center;align-items:end}.hero-image:before{content:"";position:absolute;inset:12% 4% 0;background:linear-gradient(145deg,#272522,#080808 75%);border:1px solid #ffffff12;border-radius:48% 48% 8px 8px}.hero-image img{position:relative;max-height:100%;max-width:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 20px 40px #000);mask-image:linear-gradient(to bottom,black 85%,transparent 100%)}.hero-caption{position:absolute;bottom:30px;right:0;background:#101010d9;border:1px solid var(--line);padding:14px 18px;border-radius:8px;font-size:11px;color:#bbb;backdrop-filter:blur(10px)}.hero-caption b{color:#fff;display:block;font-size:14px;margin-bottom:4px}
+.services{background:#0c0c0c}.service-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.service-card{background:linear-gradient(145deg,#171615,#101010);border:1px solid #292725;border-radius:12px;padding:25px 19px;min-height:235px;transition:.3s;position:relative;overflow:hidden}.service-card:after{content:"";position:absolute;width:100px;height:100px;right:-55px;top:-55px;border-radius:50%;background:#ff812e18;filter:blur(20px)}.service-card:hover{transform:translateY(-8px);border-color:#8c4c27;box-shadow:0 15px 35px #0008}.service-icon{width:39px;height:39px;border-radius:10px;background:#ff812e17;color:var(--orange);display:grid;place-items:center;font-size:18px;margin-bottom:22px}.service-card h3{font-size:14px;margin:0 0 12px}.service-card p{font-size:11px;line-height:1.8;color:var(--muted);margin:0 0 18px}.learn{font-size:10px;color:var(--orange);font-weight:700}
+.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{height:270px;border-radius:14px;overflow:hidden;position:relative;border:1px solid #2b2927;background:#171717}.project img{width:100%;height:100%;object-fit:cover;transition:transform .6s;filter:brightness(.7)}.project:hover img{transform:scale(1.07);filter:brightness(.45)}.project-label{position:absolute;left:22px;right:20px;bottom:22px;font-size:17px;font-weight:800;text-shadow:0 2px 12px #000}.project-label small{display:block;color:var(--orange);font-size:9px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:7px}
+.process{background:#0c0c0c}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{padding:24px 18px;border-top:1px solid #39332e;position:relative}.step .num{font-size:32px;font-weight:900;color:#ffffff17}.step h3{font-size:15px;margin:13px 0 9px}.step p{font-size:11px;color:var(--muted);line-height:1.8;margin:0}
+.contact{padding-top:100px;padding-bottom:90px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.contact h2{font-size:clamp(2.3rem,5vw,4rem);line-height:1.05;letter-spacing:-.05em;margin:15px 0}.contact h2 em{font-family:var(--serif);color:var(--orange);font-weight:400}.contact-copy>p{color:var(--muted);font-size:13px;line-height:1.9;max-width:410px}.contact-details{display:flex;gap:25px;flex-wrap:wrap;margin-top:30px}.detail{font-size:11px;color:#c5c0ba}.detail b{display:block;color:var(--orange);font-size:9px;letter-spacing:.1em;margin-bottom:6px}
+.formbox{background:linear-gradient(145deg,#171615,#101010);border:1px solid #292725;border-radius:14px;padding:28px}.formbox h3{margin:0 0 20px;font-size:17px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fields input,.fields select,.fields textarea{width:100%;background:#0b0b0b;border:1px solid #302e2b;border-radius:7px;padding:14px;color:#eee;font-size:11px;outline:none}.fields input:focus,.fields textarea:focus,.fields select:focus{border-color:var(--orange)}.fields textarea{grid-column:1/-1;min-height:100px;resize:vertical}.fields .full{grid-column:1/-1}.formbox button{width:100%;justify-content:center;margin-top:14px}.form-note{font-size:10px;color:#777;margin:12px 0 0;text-align:center}
+footer{border-top:1px solid #242220;padding:28px}.footer-inner{max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#777;font-size:10px}.footer-brand{color:#fff;font-weight:900;letter-spacing:.1em}.footer-brand span{color:var(--orange)}
+.whatsapp{position:fixed;right:25px;bottom:24px;z-index:25;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#20d66b;color:#fff;font-size:25px;box-shadow:0 8px 30px #20d66b40;transition:.2s}.whatsapp:hover{transform:scale(1.1)}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:1000px){.service-grid{grid-template-columns:repeat(3,1fr)}.hero-grid{gap:20px}.hero-image{height:430px}}
+@media(max-width:700px){header{height:66px}.nav{padding:0 19px}.menu{display:block}.navlinks{display:none;position:absolute;top:65px;left:0;right:0;background:#101010;padding:20px 25px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.nav .cta{padding:11px 15px;font-size:10px}.hero{padding-top:65px;min-height:auto}.hero-grid{grid-template-columns:1fr;gap:15px}.hero-copy{text-align:center}.hero p{margin-left:auto;margin-right:auto}.ghost{left:0;right:0;top:-48px;font-size:22vw}.hero-image{height:390px;max-width:420px;margin:auto;width:100%}.hero-caption{right:5px}.service-grid{grid-template-columns:1fr 1fr}.service-card{min-height:215px;padding:19px 15px}.portfolio-grid{grid-template-columns:1fr 1fr;gap:10px}.project{height:190px}.project-label{left:13px;bottom:14px;font-size:13px}.steps{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr;gap:35px}.contact{padding-top:75px}.formbox{padding:20px}section{padding:75px 19px}.section-head{margin-bottom:32px}.footer-inner{flex-direction:column;text-align:center}}
+@media(max-width:390px){.service-grid,.portfolio-grid{grid-template-columns:1fr}.project{height:220px}.fields{grid-template-columns:1fr}.fields textarea,.fields .full{grid-column:auto}}
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<section class="intro" id="top">
+ <div class="intro-glow"></div>
+ <div class="intro-content"><h1 class="brand">VELTRIX</h1><p class="tagline">Your Growth Partner</p></div>
+ <a class="scroll-cue" href="#founder">SCROLL <span>⌄</span></a>
+</section>
+<header>
+ <nav class="nav">
+  <a class="logo" href="#top">VELTRIX<small>DIGITAL STUDIO</small></a>
+  <button class="menu" aria-label="Open navigation" onclick="document.querySelector('.navlinks').classList.toggle('open')">☰</button>
+  <div class="navlinks">
+   <a href="#services">Our Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact Us</a>
+   <a class="cta" href="#contact">Work With Us <span>→</span></a>
+  </div>
+ </nav>
+</header>
+<main>
+<section class="hero" id="founder">
+ <div class="wrap hero-grid">
+  <div class="hero-copy reveal"><div class="ghost">ADEEL</div><div class="eyebrow">Founder & Creative Lead</div><h1>Adeel<span>.</span></h1><div class="role">Founder of<br>Veltrix Digital Studio</div><p>Building digital experiences with innovation, creativity, and strategic marketing. We help ambitious businesses create a stronger presence and move forward online.</p><a class="cta" href="#contact">Let's Work Together <span>↗</span></a></div>
+  <div class="hero-image reveal"><img src="assets/founder-reference.jpg" alt="Founder portrait from the supplied Veltrix reference video"><div class="hero-caption"><b>Adeel Haider</b>Founder · Veltrix Digital Studio</div></div>
+ </div>
+</section>
+<section class="services" id="services">
+ <div class="wrap">
+  <div class="section-head reveal"><div class="eyebrow">Our Services</div><h2>Premium Digital Solutions</h2><p>From websites to marketing, we offer complete digital solutions to help grow your business.</p></div>
+  <div class="service-grid">
+   <article class="service-card reveal"><div class="service-icon">⌘</div><h3>Website Development</h3><p>Modern, responsive websites designed to build trust, engage visitors and turn them into customers.</p><a class="learn" href="#contact">Learn More →</a></article>
+   <article class="service-card reveal"><div class="service-icon">▧</div><h3>Shopify Store Development</h3><p>Conversion-focused Shopify stores with thoughtful design and a seamless shopping experience.</p><a class="learn" href="#contact">Learn More →</a></article>
+   <article class="service-card reveal"><div class="service-icon">◈</div><h3>Performance Marketing</h3><p>Data-driven campaigns built to reach the right audience and improve measurable results.</p><a class="learn" href="#contact">Learn More →</a></article>
+   <article class="service-card reveal"><div class="service-icon">✧</div><h3>UI/UX & Creative Design</h3><p>Clean, purposeful interfaces and creative assets that make your brand easier to remember.</p><a class="learn" href="#contact">Learn More →</a></article>
+   <article class="service-card reveal"><div class="service-icon">↗</div><h3>Advanced Web Experiences</h3><p>Interactive digital experiences with motion, detail and responsive functionality.</p><a class="learn" href="#contact">Learn More →</a></article>
+  </div>
+ </div>
+</section>
+<section id="portfolio">
+ <div class="wrap">
+  <div class="section-head reveal"><div class="eyebrow">Selected Work</div><h2>Ideas Made Digital</h2><p>A selection of creative directions and digital experiences. Replace these reference tiles with your approved live client projects.</p></div>
+  <div class="portfolio-grid">
+   <article class="project reveal"><img src="assets/work-1.jpg" alt="Website design project preview"><div class="project-label"><small>01 / Web</small>Website Development</div></article>
+   <article class="project reveal"><img src="assets/work-2.jpg" alt="Shopify store project preview"><div class="project-label"><small>02 / Commerce</small>Shopify Store Development</div></article>
+   <article class="project reveal"><img src="assets/work-3.jpg" alt="Marketing analytics project preview"><div class="project-label"><small>03 / Growth</small>Performance Marketing</div></article>
+   <article class="project reveal"><img src="assets/work-4.jpg" alt="Creative design project preview"><div class="project-label"><small>04 / Creative</small>UI/UX & Creative Design</div></article>
+   <article class="project reveal"><img src="assets/work-5.jpg" alt="Digital team project preview"><div class="project-label"><small>05 / Experience</small>Advanced Web Experiences</div></article>
+   <article class="project reveal"><img src="assets/work-6.jpg" alt="Strategic planning project preview"><div class="project-label"><small>06 / Strategy</small>Strategic Planning</div></article>
+  </div>
+ </div>
+</section>
+<section class="process">
+ <div class="wrap">
+  <div class="section-head reveal"><div class="eyebrow">Our Process</div><h2>A Simple & Effective Process</h2><p>Clear communication, thoughtful execution and a focus on outcomes at every step.</p></div>
+  <div class="steps">
+   <article class="step reveal"><div class="num">01</div><h3>Discover</h3><p>We learn about your business, goals, audience and challenges.</p></article>
+   <article class="step reveal"><div class="num">02</div><h3>Plan</h3><p>We shape a clear strategy and define the right direction for the project.</p></article>
+   <article class="step reveal"><div class="num">03</div><h3>Create</h3><p>We design, develop and refine your digital experience with care.</p></article>
+   <article class="step reveal"><div class="num">04</div><h3>Launch & Grow</h3><p>We launch, review performance and identify opportunities to improve.</p></article>
+  </div>
+ </div>
+</section>
+<section class="contact" id="contact">
+ <div class="wrap contact-grid">
+  <div class="contact-copy reveal"><div class="eyebrow">Let's Connect</div><h2>Let's Build Something<br>Great <em>Together.</em></h2><p>Have a project in mind? Tell us about your business, your goals and what you need. We'll get back to you with the next steps.</p><div class="contact-details"><div class="detail"><b>WHATSAPP</b>+92 302 1326666</div><div class="detail"><b>EMAIL</b>veltrixdigitalstudio@gmail.com</div><div class="detail"><b>LOCATION</b>Karachi, Pakistan · Worldwide</div></div></div>
+  <form class="formbox reveal" id="projectForm"><h3>Tell us about your project</h3><div class="fields">
+   <input name="name" placeholder="Your Name" required>
+   <input name="email" type="email" placeholder="Email Address" required>
+   <input name="phone" placeholder="Phone / WhatsApp">
+   <select name="service" required><option value="">Select Service</option><option>Website Development</option><option>Shopify Store Development</option><option>Performance Marketing</option><option>UI/UX & Creative Design</option><option>Other</option></select>
+   <select name="budget"><option value="">Project Budget</option><option>Under $500</option><option>$500 – $1,000</option><option>$1,000 – $3,000</option><option>$3,000+</option></select>
+   <input name="timeline" placeholder="Project Timeline">
+   <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+  </div><button class="cta" type="submit">Send Project Inquiry <span>→</span></button><p class="form-note">Your inquiry opens directly in WhatsApp. No external form service required.</p></form>
+ </div>
+</section>
+</main>
+<footer><div class="footer-inner"><div class="footer-brand">VELTRIX<span>.</span></div><div>© <span id="year"></span> Veltrix Digital Studio. All rights reserved.</div><div>Your Growth Partner</div></div></footer>
+<a class="whatsapp" href="https://wa.me/923021326666" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">◉</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.navlinks').classList.remove('open')));
+document.getElementById('projectForm').addEventListener('submit',e=>{
+ e.preventDefault();const f=new FormData(e.currentTarget);
+ const msg=`Hello Veltrix Digital Studio!%0A%0AName: ${encodeURIComponent(f.get('name'))}%0AEmail: ${encodeURIComponent(f.get('email'))}%0APhone: ${encodeURIComponent(f.get('phone')||'Not provided')}%0AService: ${encodeURIComponent(f.get('service'))}%0ABudget: ${encodeURIComponent(f.get('budget')||'Not specified')}%0ATimeline: ${encodeURIComponent(f.get('timeline')||'Not specified')}%0AProject details: ${encodeURIComponent(f.get('message'))}`;
+ window.open('https://wa.me/923021326666?text='+msg,'_blank','noopener');
+});
+</script>
+</body></html>
